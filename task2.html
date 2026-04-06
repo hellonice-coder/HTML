@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club of Readers entrance page</title>
+    <style>
+        body{
+
+            background-image:url(https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=1356&h=668&fit=crop);
+            background-size:cover;
+            background-repeat:no-repeat;
+            height:20px;
+            background-attachment:fixed
+
+        }
+        .colors{
+            color:red; font-family:fantasy;font-size: large;
+            
+        }
+     #field{
+        width:50%;
+        height:50%;
+     
+
+        
+        
+
+border: 5px solid blue;
+
+border-radius: 10px;
+
+padding: 20px;
+
+margin-left:20px ;
+
+margin-top: 20px;
+     } 
+     button{
+        border-radius: 10px;
+        border-color: blueviolet;
+        color:dark blue
+     }  
+input[type="text"] {
+
+border: 2px solid blue;
+font-size:large;
+}
+
+input[type="number"] {
+
+border: 2px solid green;
+
+}
+    </style>
+</head>
+<body>
+<form>
+
+
+<fieldset id="field">
+<label for="name" class="colors">Your Name:</label>
+<input type="text" id="name" name="name " placeholder="enter your name" required><br><br>
+<label for="grade" class="colors">Your Grade:</label>
+<input type="number" id="grade" name="grade " placeholder="enter your grade" required><br><br>
+<label for="favourite book series" class="colors">Your book:</label>
+<input type="text" id="book" name="book " placeholder="enter your favourite book" required><br><br>
+<button>Submit</button>
+
+</fieldset>
+</form>
+</body>
+</html>
